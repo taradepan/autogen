@@ -1,0 +1,5 @@
+.env
+/.cache
+/code
+/venv
+/web
