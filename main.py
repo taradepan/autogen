@@ -6,7 +6,7 @@ dotenv.load_dotenv()
 
 config_list = [
     {
-        'model': 'gpt-4o',
+        'model': 'gpt-4o-mini',
         'api_key': os.getenv("OPENAI_API_KEY")
     }
 ]

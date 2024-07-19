@@ -5,7 +5,7 @@ dotenv.load_dotenv()
 
 config_list = autogen.config_list_from_dotenv(
     ".env",
-    {"gpt-4o": "OPENAI_API_KEY"}
+    {"gpt-4o-mini": "OPENAI_API_KEY"}
 )
 
 llm_config = {
